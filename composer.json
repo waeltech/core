@@ -1,20 +1,23 @@
 {
-    "name": "waeltech/core",
-    "type": "library",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Waeltech\\Core\\": "src/"
-        }
+  "name": "waeltech/core",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Waeltech\\Core\\": "src/"
     },
-    "authors": [
-        {
-            "name": "Wael",
-            "email": "info@waeltech.com"
-        }
-    ],
-    "require": {
-        "php": "^8.1",
-        "illuminate/support": "^11.20"
+    "files": [
+      "lib/helpers.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "Wael",
+      "email": "info@waeltech.com"
     }
+  ],
+  "require": {
+    "php": "^8.1",
+    "illuminate/support": "^11.20"
+  }
 }
